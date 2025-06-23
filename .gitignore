@@ -1,0 +1,27 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/project settings
+.vscode/
+.idea/
+
+# Allow all model files and data used in app
+!backend/*.pkl
+!backend/*.csv
+!backend/*.h5
+!backend/*.json
+!backend/*.md
+!backend/*.png
+!backend/*.pdf
+!backend/*.py
+
+# Environment config
+.env
